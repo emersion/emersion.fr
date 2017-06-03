@@ -1,0 +1,11 @@
+{{- $title := .Title -}}
+{{- $siteTitle := .Site.Title -}}
+{{- if .IsHome -}}
+  {{ $siteTitle }}
+{{- else if eq .Kind "taxonomy" -}}
+  {{ title .Data.Singular }}: {{ $title }} &middot; {{ $siteTitle }}
+{{- else if eq .Kind "section" -}}
+  {{ $title }} &middot; {{ $siteTitle }}
+{{- else if .IsPage -}}
+  {{ $title }} &middot; {{ $siteTitle }}
+{{- end -}}

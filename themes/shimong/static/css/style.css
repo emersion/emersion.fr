@@ -1,0 +1,87 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+@import url('https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');
+
+@font-face {
+	font-family: 'Fira Code';
+	src: url('https://rawgit.com/tonsky/FiraCode/master/distr/ttf/FiraCode-Regular.ttf');
+}
+
+body {
+	font-family: 'Fira Code', 'Nanum Gothic Coding', monospace;
+	display: flex;
+	flex-flow: row;
+}
+
+body > header {
+	text-align: center;
+}
+
+body > header h1 {
+	width: 1.5em;
+	font-size: 10em;
+	margin: 0 auto;
+}
+
+body > header p {
+	color: gray;
+}
+
+#main {
+	flex: auto;
+	min-height: 100vh;
+	max-width: 1000px;
+
+	display: flex;
+	flex-flow: column;
+}
+
+#main > nav, #main > main, #main > footer {
+	padding: 15px;
+}
+
+#main > nav {
+	text-align: center;
+}
+
+#main > main {
+	flex: 1;
+}
+
+article p {
+	text-align: justify;
+}
+
+pre {
+	font-family: 'Fira Code', 'Nanum Gothic Coding', monospace;
+	background-color: #272822;
+	color: #f8f8f2;
+	padding: 15px;
+}
+
+p code {
+	color: #930d72;
+}
+
+a, a:visited {
+	color: inherit;
+}
+
+#main > footer {
+	padding-top: 50px;
+}
+
+@media (max-width: 640px) {
+	body {
+		flex-direction: column;
+	}
+
+	body > header h1 {
+		width: auto;
+		font-size: 7em;
+	}
+
+	#main {
+		display: block;
+		min-height: 0;
+	}
+}

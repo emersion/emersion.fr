@@ -1,0 +1,5 @@
+baseURL = "https://emersion.fr"
+languageCode = "en-us"
+title = "emersion"
+theme = "shimong"
+PygmentsCodeFences = true

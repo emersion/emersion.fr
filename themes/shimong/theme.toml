@@ -1,0 +1,11 @@
+name = "Shimong"
+license = "MIT"
+description = "emersion.fr's theme"
+homepage = "https://emersion.fr"
+tags = []
+features = []
+min_version = "0.21"
+
+[author]
+  name = "emersion"
+  homepage = "https://emersion.fr"
