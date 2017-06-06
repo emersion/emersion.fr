@@ -32,6 +32,7 @@ body > header p {
 	flex: auto;
 	min-height: 100vh;
 	max-width: 1000px;
+	overflow: hidden;
 
 	display: flex;
 	flex-flow: column;
@@ -97,19 +98,15 @@ body > header p {
 	}
 }
 
-/* Article list */
-
-.article-list article {
-	display: flex;
-	flex-flow: row;
-	align-items: center;
-}
-
-.article-list article h3 {
-	margin: 10px;
-}
-
 /* Typography */
+
+article > header {
+	margin-bottom: 2em;
+}
+
+article > header time {
+	color: gray;
+}
 
 article p {
 	text-align: justify;
@@ -133,4 +130,17 @@ p code {
 
 a, a:visited {
 	color: inherit;
+}
+
+/* Article list */
+
+.article-list article > header {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	margin-bottom: 0;
+}
+
+.article-list article h3 {
+	margin: 0.5em;
 }
