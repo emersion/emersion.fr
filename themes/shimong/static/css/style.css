@@ -97,6 +97,18 @@ body > header p {
 	}
 }
 
+/* Article list */
+
+.article-list article {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+.article-list article h3 {
+	margin: 10px;
+}
+
 /* Typography */
 
 article p {
