@@ -1,6 +1,7 @@
 +++
 date = "2015-03-08T00:00:00+02:00"
 title = "Lire les données d'un gyro/accéléromètre MPU6050 avec Node.js"
+slug = "lire-les-donnees-d-un-gyro-accelerometre-mpu6050"
 lang = "fr"
 +++
 

@@ -1,6 +1,7 @@
 +++
 date = "2015-09-20T00:00:00+02:00"
 title = "Stabilisation du bicoptère"
+slug = "stabilisation-du-bicoptere"
 lang = "fr"
 +++
 

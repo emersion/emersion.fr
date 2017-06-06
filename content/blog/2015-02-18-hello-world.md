@@ -1,6 +1,7 @@
 +++
 date = "2015-02-18T00:00:00+02:00"
 title = "Hello World!"
+slug = "hello-world"
 lang = "fr"
 +++
 
@@ -23,7 +24,7 @@ Je serais de plus assez intéressé par la réalisation d'une plateforme de haut
 J'ai donc imaginé, en tant que néophyte dans le milieu, une architecture provisoire :
 
 ![Schéma (un peu moins) approximatif](/img/blog/2015-hello-world/quadcopter-draft.png)
-<p class="text-center">_Une représentation en fouillis de la compisition du quadcopter._</p>
+<p class="text-center">_Une représentation en fouillis de la composition du quadcopter._</p>
 
 Le tout est composé :
 

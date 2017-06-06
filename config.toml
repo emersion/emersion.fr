@@ -3,3 +3,6 @@ languageCode = "en-us"
 title = "emersion"
 theme = "shimong"
 PygmentsCodeFences = true
+
+[permalinks]
+	blog = "/blog/:year/:slug/"

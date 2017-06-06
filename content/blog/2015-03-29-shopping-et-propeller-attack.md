@@ -1,6 +1,7 @@
 +++
 date = "2015-03-29T00:00:00+02:00"
 title = "Shopping et propeller attack"
+slug = "shopping-et-propeller-attack"
 lang = "fr"
 +++
 

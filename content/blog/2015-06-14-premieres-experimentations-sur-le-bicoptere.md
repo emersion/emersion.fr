@@ -1,6 +1,7 @@
 +++
 date = "2015-06-14T00:00:00+02:00"
 title = "Premières expérimentations sur le bicoptère"
+slug = "premieres-experimentations-sur-le-bicoptere"
 lang = "fr"
 +++
 
