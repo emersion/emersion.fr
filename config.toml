@@ -6,3 +6,11 @@ PygmentsCodeFences = true
 
 [permalinks]
 	blog = "/blog/:year/:slug/"
+
+[outputs]
+	home = ["HTML", "RSS"]
+	section = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+	mediatype = "application/xml"
+	baseName = "rss"
