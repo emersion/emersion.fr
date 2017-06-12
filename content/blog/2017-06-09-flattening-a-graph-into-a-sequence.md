@@ -87,14 +87,14 @@ queue <- Queue(heads)
 queueLen <- len(heads)
 nextQueueLen <- 0
 while queue is not empty:
-	n <- queue.shift()
+	n <- queue.pop_front()
 	queueLen--
 
 	itemset.add(n)
 
 	# Push all successors to the queue
 	for s in G.successors(n):
-		queue.push(s)
+		queue.push_back(s)
 		nextQueueLen++
 
 	# When we're done processing this level, create a fresh itemset
