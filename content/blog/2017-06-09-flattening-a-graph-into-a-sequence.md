@@ -6,7 +6,7 @@ lang = "en"
 
 During my internship at [LRI](https://www.lri.fr), I had to flatten a graph into
 a sequence. The resulting algorithm isn't complicated, but I found the several
-appoaches before ending up with a fully working solution pretty interesting.
+approaches before ending up with a fully working solution pretty interesting.
 
 More precisely, the graph is
 [directed and acyclic](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
