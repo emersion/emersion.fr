@@ -7,6 +7,12 @@ PygmentsCodeFences = true
 [permalinks]
 	blog = "/blog/:year/:slug/"
 
+[sections]
+	blog = "blog"
+
+[taxonomies]
+	tag = "tags"
+
 [outputs]
 	home = ["HTML", "RSS"]
 	section = ["HTML", "RSS"]

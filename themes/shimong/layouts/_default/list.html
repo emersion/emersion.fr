@@ -1,5 +1,7 @@
 {{ partial "header.html" . }}
 
+<h1>{{ .Title }}</h1>
+
 <div class="article-list">
 	{{ range .Paginator.Pages }}
 	<article>

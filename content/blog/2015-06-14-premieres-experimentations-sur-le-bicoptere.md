@@ -3,6 +3,7 @@ date = "2015-06-14T00:00:00+02:00"
 title = "Premières expérimentations sur le bicoptère"
 slug = "premieres-experimentations-sur-le-bicoptere"
 lang = "fr"
+tags = ["quadcopter"]
 +++
 
 Depuis mon [dernier article](/blog/2015/shopping-et-propeller-attack/), nous avons construit le bicoptère à bascule qui nous servira de plateforme de test pour la stabilisation de l'appareil. Cet appareil est constitué d'un axe auquel sont fixés deux hélices. Ainsi, on va pouvoir mettre les gaz à fond sans risquer de tout casser ! (Bon, jusqu'au moment où ce sont les hélices qui partent, mais ça c'est une autre histoire...)

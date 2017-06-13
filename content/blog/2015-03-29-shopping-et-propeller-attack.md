@@ -3,6 +3,7 @@ date = "2015-03-29T00:00:00+02:00"
 title = "Shopping et propeller attack"
 slug = "shopping-et-propeller-attack"
 lang = "fr"
+tags = ["quadcopter", "javascript"]
 +++
 
 Il y a un peu de nouveau concernant le projet de quadcopter que j'ai présenté dans [mon premier article](/blog/2015/hello-world/). Nous avons finalement eu le temps d'acheter le matériel nécessaire dans une boutique d'aéromodélisme, et j'ai pu dans un second temps commander une hélice via le Raspberrypi.

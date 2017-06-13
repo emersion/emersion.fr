@@ -2,6 +2,7 @@
 date = "2017-06-09T00:00:00+02:00"
 title = "Flattening a graph into a sequence"
 lang = "en"
+tags = ["algorithms"]
 +++
 
 During my internship at [LRI](https://www.lri.fr), I had to flatten a graph into

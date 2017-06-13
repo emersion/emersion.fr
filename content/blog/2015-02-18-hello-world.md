@@ -3,6 +3,7 @@ date = "2015-02-18T00:00:00+02:00"
 title = "Hello World!"
 slug = "hello-world"
 lang = "fr"
+tags = ["quadcopter"]
 +++
 
 Bonjour à tous ! Ceci est mon premier article de blog. À cette occasion, je vais vous présenter mon petit projet de [TIPE](https://fr.wikipedia.org/wiki/Travail_d%27initiative_personnelle_encadr%C3%A9).

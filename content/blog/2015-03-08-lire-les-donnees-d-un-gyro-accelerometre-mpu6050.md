@@ -3,6 +3,7 @@ date = "2015-03-08T00:00:00+02:00"
 title = "Lire les données d'un gyro/accéléromètre MPU6050 avec Node.js"
 slug = "lire-les-donnees-d-un-gyro-accelerometre-mpu6050"
 lang = "fr"
+tags = ["quadcopter", "javascript"]
 +++
 
 J'ai eu le temps à la fin des vacances de faire quelques tests avec un gyro/accéléromètre MPU6050 retrouvé au fond des tiroirs. En fouillant un peu sur les Internets, j'ai pu lire les données disponibles et faire une petite visualisation 3D en bonus.

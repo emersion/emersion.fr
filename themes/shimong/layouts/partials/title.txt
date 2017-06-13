@@ -8,4 +8,8 @@
   {{ $title }} &middot; {{ $siteTitle }}
 {{- else if .IsPage -}}
   {{ $title }} &middot; {{ $siteTitle }}
+{{- else if not (eq .Title "") -}}
+  {{ $title }} &middot; {{ $siteTitle }}
+{{- else -}}
+  {{ $siteTitle }}
 {{- end -}}
