@@ -7,9 +7,6 @@ PygmentsCodeFences = true
 [permalinks]
 	blog = "/blog/:year/:slug/"
 
-[sections]
-	blog = "blog"
-
 [taxonomies]
 	tag = "tags"
 
