@@ -16,4 +16,7 @@ http://www.editions-rnti.fr/?inprocid=1002382.
 Si vous voulez accéder directement au papier :
 https://fs.emersion.fr/protected/docs/gradualspan-rnti.pdf
 
+J'ai également mis la présentation du papier en ligne :
+https://fs.emersion.fr/protected/docs/gradualspan-egc-présentation.pdf
+
 Le code source du papier est ici : https://github.com/emersion/gradualspan
