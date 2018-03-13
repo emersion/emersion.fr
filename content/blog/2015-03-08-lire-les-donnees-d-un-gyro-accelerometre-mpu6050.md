@@ -91,6 +91,6 @@ J'ai donc créé un petit module Node.js pour lire les données du capteur, dont
 
 Après quelques heures de codage et déboguage, voici le résultat :
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/_WRySGOwtGc" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube-nocookie.com/embed/_WRySGOwtGc" frameborder="0" allowfullscreen></iframe>
 
 Avec l'aide de mon module Node.js et de la librarie [three.js](http://threejs.org/), on peut créer un petit serveur HTTP qui permet de visualiser l'orientation du capteur en temps réel. Vous pouvez voir le code source ici : https://github.com/emersion/node-mpu6050-server

@@ -77,4 +77,4 @@ stream.end(); // On ferme le flux
 
 Comme d'hab, voici une petite vidéo du résultat (ne pas m'en vouloir, c'est fait à l'arrache) :
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/8W6jQgAOdHE" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube-nocookie.com/embed/8W6jQgAOdHE" frameborder="0" allowfullscreen></iframe>
