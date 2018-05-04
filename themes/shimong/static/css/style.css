@@ -98,6 +98,7 @@ article > header {
 
 article > header time {
 	color: gray;
+	white-space: nowrap;
 }
 
 article p, article li {

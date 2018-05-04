@@ -3,13 +3,13 @@
 {{- if .IsHome -}}
   {{ $siteTitle }}
 {{- else if eq .Kind "taxonomy" -}}
-  {{ title .Data.Singular }}: {{ $title }} &middot; {{ $siteTitle }}
+  {{ title .Data.Singular }}: {{ $title }} · {{ $siteTitle }}
 {{- else if eq .Kind "section" -}}
-  {{ $title }} &middot; {{ $siteTitle }}
+  {{ $title }} · {{ $siteTitle }}
 {{- else if .IsPage -}}
-  {{ $title }} &middot; {{ $siteTitle }}
+  {{ $title }} · {{ $siteTitle }}
 {{- else if not (eq .Title "") -}}
-  {{ $title }} &middot; {{ $siteTitle }}
+  {{ $title }} · {{ $siteTitle }}
 {{- else -}}
   {{ $siteTitle }}
 {{- end -}}
