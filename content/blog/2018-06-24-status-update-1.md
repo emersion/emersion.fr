@@ -22,7 +22,7 @@ buffer types (shared memory in RAM vs. zero-copy buffers in the GPU) which
 have different semantics (some need to be uploaded to the GPU, with damage
 tracking support), and on top of that you also need to handle synchronization
 (which also depends on the buffer type) and cleanup (when the buffer is
-removed). Anyway, `wlr_buffer` allows for [atomic layout] and aimations when
+removed). Anyway, `wlr_buffer` allows for [atomic layout] and animations when
 closing windows (used by [Wayfire][wayfire]). I'm still
 [continuing this work][redesign surface state] and improving the `wlr_surface`
 API.
