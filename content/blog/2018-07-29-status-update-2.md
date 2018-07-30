@@ -28,7 +28,7 @@ better performance.
 
 If you missed it, my [xdg-decoration] protocol has been merged in
 `wayland-protocols`! That's very good news, that means we now have a standard
-way of negociating SSD. I expect various projects to gradually add support to
+way of negotiating SSD. I expect various projects to gradually add support to
 this protocol. The Arch package has just been updated a few hours ago, so
 my [wlroots pull request][wlroots-xdg-decoration] will probably be able to be
 merged fairly soon. For instance, the Smithay guys already have a
