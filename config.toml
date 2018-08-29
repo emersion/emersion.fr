@@ -2,7 +2,8 @@ baseURL = "https://emersion.fr/"
 languageCode = "en-us"
 title = "emersion"
 theme = "shimong"
-PygmentsCodeFences = true
+pygmentsCodeFences = true
+paginate = 100
 
 [permalinks]
 	blog = "/blog/:year/:slug/"
