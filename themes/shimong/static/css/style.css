@@ -138,5 +138,11 @@ a, a:visited {
 }
 
 .article-list article h3 {
+	display: inline-block;
 	margin: 0.5em;
+}
+
+.article-list article small {
+	font-weight: normal;
+	color: gray;
 }
