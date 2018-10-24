@@ -62,6 +62,17 @@ body > header p {
 	}
 }
 
+hr {
+	border: none;
+	border-top: 1px solid gray;
+	max-width: 25px;
+	margin: 35px auto;
+}
+
+.muted {
+	color: gray;
+}
+
 /* Homepage */
 
 #intro {
