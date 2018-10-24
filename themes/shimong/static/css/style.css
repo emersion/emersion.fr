@@ -23,7 +23,7 @@ body > header p {
 #main {
 	flex: auto;
 	min-height: 100vh;
-	max-width: 750px;
+	max-width: 820px;
 	overflow: hidden;
 
 	display: flex;
