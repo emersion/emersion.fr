@@ -112,7 +112,7 @@ while (true) {
 }
 ```
 
-When we want to draw, we'll to register a frame callback.
+When we want to draw, we'll register a frame callback.
 
 ```c
 void render(void) {
