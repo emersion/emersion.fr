@@ -29,10 +29,10 @@ are now available. No major changes here, it's just the first release. Note that
 Arch users can now install the `grim` package from the community repo.
 
 mrsh development is still moving forward, little by little. Functions have been
-implemented by Drew and the `umask` builtin by benofbrown (thanks!). Redirecting
-a builtin's output now works (since builtins are not spawned in separate
-processes, we need to have special cases for those). Another notable addition is
-support for profiles, now mrsh can be used as a login shell!
+implemented by Drew Devault and the `umask` builtin by benofbrown (thanks!).
+Redirecting a builtin's output now works (since builtins are not spawned in
+separate processes, we need to have special cases for those). Another notable
+addition is support for profiles, now mrsh can be used as a login shell!
 
 I also spent quite some time trying to understand what was going on with a
 [weird bug][mrsh issue 48]. After executing command substitution (for instance,
