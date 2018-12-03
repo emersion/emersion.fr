@@ -1,0 +1,23 @@
+image: archlinux
+packages:
+  - hugo
+  - rsync
+  - npm
+secrets:
+  - 5874ac5a-905e-4596-a117-fed1401c60ce
+sources:
+  - https://github.com/emersion/emersion.fr
+tasks:
+  - setup: |
+      cd emersion.fr/themes/shimong/static
+      npm install
+  - build: |
+      cd emersion.fr
+      hugo
+  - upload: |
+      cd emersion.fr/public
+      sshopts="-o StrictHostKeyChecking=no"
+      rsync --rsh="ssh $sshopts" -rP \
+          --delete \
+          --delete-excluded \
+          . deploy@emersion.fr:/srv/http/emersion.fr
