@@ -47,9 +47,9 @@ Thanks for reading!
 [builds.sr.ht]: https://builds.sr.ht
 [freebsd-notes]: https://hackmd.io/s/SJRD7QRNE
 [freebsd-genimg]: https://git.sr.ht/~sircmpwn/builds.sr.ht/tree/master/images/freebsd/genimg
-[mako]:
+[mako]: https://wayland.emersion.fr/mako/
 [mako-grouping]: https://github.com/emersion/mako/pull/111
 [mako-icons]: https://github.com/emersion/mako/pull/115
-[slurp]:
+[slurp]: https://wayland.emersion.fr/slurp/
 [lists.sr.ht]: https://lists.sr.ht
 [Purism]: https://puri.sm/
