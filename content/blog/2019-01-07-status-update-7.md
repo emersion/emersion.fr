@@ -1,6 +1,6 @@
 +++
 date = "2019-01-07T00:00:00+02:00"
-title = "Status update, december 2018"
+title = "Status update, December 2018"
 slug = "status-update-7"
 lang = "en"
 tags = ["status update"]
