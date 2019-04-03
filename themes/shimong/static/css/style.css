@@ -125,6 +125,10 @@ article img {
 	max-width: 100%;
 }
 
+article .footnotes {
+	font-size: 0.75em;
+}
+
 pre {
 	font-family: 'Fira Code', 'Nanum Gothic Coding', monospace;
 	background-color: #272822;
