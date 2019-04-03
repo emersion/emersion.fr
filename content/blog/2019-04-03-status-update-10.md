@@ -48,7 +48,7 @@ adding support for direct scan-out for fullscreen windows only (then we'll be
 able to extend this to non-fullscreen windows via overlay planes).
 
 Earlier this month I've also worked on an output management protocol for
-Wayland, but this deserves this own blog post so I'll leave it out of this
+Wayland, but this deserves its own blog post so I'll leave it out of this
 status update.
 
 That's all for this month, thanks for reading!
