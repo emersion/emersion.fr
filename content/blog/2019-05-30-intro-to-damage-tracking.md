@@ -93,7 +93,7 @@ if we look at what changed on a particular buffer each time we draw, we notice
 two hearts are added each time (follow the green arrows going up).
 
 Let's re-order things a little to better understand what's going on. In the
-following image, the render buffer has a green border.
+following image, the display buffer has a green border.
 
 ![Buffer damage](https://sr.ht/gj7o.svg)
 
