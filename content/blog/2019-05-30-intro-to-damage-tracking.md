@@ -21,7 +21,7 @@ larger buffer and display the larger buffer on your screen.
 When you're writing a Wayland compositor for the first time, you start by doing
 that 60 times per second. This works well, but after a while you notice that
 your compositor is doing more work than necessary: often times the screen stays
-perfectly screen, nothing changes. In the case of a Wayland compositor, this
+perfectly still, nothing changes. In the case of a Wayland compositor, this
 happens when none of the clients update its buffers.
 
 Level zero of damage tracking is noticing when nothing changes and stopping
@@ -147,7 +147,7 @@ so here are a few common cases:
   will remain. In general the idea is: damage, do the thing, damage again.
 
 Note that since we're writing a compositor, our damage is per-output, so
-whenever we accumulate damage from a surface we need offset it by the surface's
+whenever we accumulate damage from a surface we need to offset it by the surface's
 coordinates. Additionally, on Wayland the surfaces are organized in a tree, so
 one needs to walk up the tree to compute the surface's position relative to an
 output.
