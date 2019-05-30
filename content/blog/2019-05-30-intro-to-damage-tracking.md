@@ -47,7 +47,7 @@ indicate which parts of the frame changed. Our goal is to use this information
 to redraw as little as possible.
 
 Here's an example with `htop`: only the parts that have changed are rendered,
-the regions that don't changed are painted in yellow.
+the regions that don't change are painted in yellow.
 
 <video src="https://sr.ht/fs1u.mp4" controls>
 
