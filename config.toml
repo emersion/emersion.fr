@@ -1,6 +1,7 @@
 baseURL = "https://emersion.fr/"
 languageCode = "en-us"
 title = "emersion"
+copyright = "Creative Commons BY 3.0"
 theme = "shimong"
 pygmentsCodeFences = true
 paginate = 100
