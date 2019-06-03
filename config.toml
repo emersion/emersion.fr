@@ -13,9 +13,15 @@ paginate = 100
 	tag = "tags"
 
 [outputs]
-	home = ["HTML", "RSS"]
-	section = ["HTML", "RSS"]
+	home = ["HTML"]
+	section = ["HTML", "RSS", "Atom"]
+
+[mediaTypes."application/atom+xml"]
+	suffixes = ["xml"]
 
 [outputFormats.RSS]
-	mediatype = "application/xml"
+	mediaType = "application/xml"
 	baseName = "rss"
+[outputFormats.Atom]
+	mediaType = "application/atom+xml"
+	baseName = "atom"
