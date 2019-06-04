@@ -67,5 +67,6 @@ That's all for this month! Thanks for reading!
 [go-maildir]: https://github.com/emersion/go-maildir
 [go-message]: https://github.com/emersion/go-message
 [go-imap]: https://github.com/emersion/go-imap
+[maddy]: https://github.com/emersion/maddy
 [waypipe]: https://gitlab.freedesktop.org/mstoeckl/waypipe/
 [output-management]: https://github.com/swaywm/wlr-protocols/blob/master/unstable/wlr-output-management-unstable-v1.xml
