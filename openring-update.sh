@@ -1,5 +1,6 @@
 #!/bin/sh -eu
 
+mkdir -p data
 go run openring.go >data/openring.toml \
 	-s "https://drewdevault.com/feed.xml" \
 	-s "https://ppaalanen.blogspot.com/feeds/posts/default?alt=rss" \
