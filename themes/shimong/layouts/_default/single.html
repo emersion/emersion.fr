@@ -7,14 +7,12 @@
 	</header>
 
 	{{ .Content }}
+
+	{{ if eq .Params.lang "en" }}
+	<footer>
+		{{ partial "article-footer.html" . }}
+	</footer>
+	{{ end }}
 </article>
-
-{{ if eq .Params.lang "en" }}
-<hr>
-
-<p class="muted">
-	Questions, comments? Please use <a href="https://lists.sr.ht/%7Eemersion/public-inbox">my public inbox</a> by sending a plain-text email to <a href="mailto:~emersion/public-inbox@lists.sr.ht?subject={{ .Title | safeURL }}">~emersion/public-inbox@lists.sr.ht</a>.
-</p>
-{{ end }}
 
 {{ partial "footer.html" . }}

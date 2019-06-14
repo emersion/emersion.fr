@@ -3,6 +3,7 @@ packages:
   - hugo
   - rsync
   - npm
+  - go
 secrets:
   - 5874ac5a-905e-4596-a117-fed1401c60ce
 sources:
@@ -11,6 +12,9 @@ tasks:
   - setup: |
       cd emersion.fr/themes/shimong/static
       npm install
+  - openring: |
+      cd emersion.fr
+      ./openring-update.sh
   - build: |
       cd emersion.fr
       hugo
