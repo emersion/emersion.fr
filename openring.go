@@ -1,6 +1,7 @@
 package main
 
 import (
+	"html"
 	"log"
 	"net/url"
 	"os"
@@ -86,8 +87,12 @@ func main() {
 			continue
 		}
 		item := feed.Items[0]
+		rawSummary := item.Summary
+		if len(rawSummary) == 0 {
+			rawSummary = html.UnescapeString(item.Content)
+		}
 		summary := runewidth.Truncate(
-			policy.Sanitize(item.Summary), summaryLen, "…")
+			policy.Sanitize(rawSummary), summaryLen, "…")
 		articles = append(articles, Article{
 			Date:        item.Date,
 			SourceLink:  feed.Link,
