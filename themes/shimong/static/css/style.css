@@ -78,6 +78,20 @@ hr {
 	color: gray;
 }
 
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: black;
+		color: #dfdfdf;
+	}
+
+	article img:not([src$=".jpg"]):not([src$=".jpeg"]) {
+		/* prevent transparent images from showing the black background */
+		background-color: white;
+		border: 5px solid white;
+		box-sizing: border-box;
+	}
+}
+
 /* Homepage */
 
 #intro {
