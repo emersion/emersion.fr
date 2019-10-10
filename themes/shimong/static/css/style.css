@@ -162,6 +162,18 @@ a, a:visited {
 	color: inherit;
 }
 
+iframe[src*="youtube-nocookie.com"] {
+	border: none;
+	width: 100%;
+	height: 460px;
+}
+
+@media (max-width: 640px) {
+	iframe[src*="youtube-nocookie.com"] {
+		height: 260px;
+	}
+}
+
 /* Article list */
 
 .article-list article > header {
