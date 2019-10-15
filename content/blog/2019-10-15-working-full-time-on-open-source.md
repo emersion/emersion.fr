@@ -24,7 +24,7 @@ contribute to sr.ht, work on an interactive shell based on mrsh, and continue
 my efforts with [libliftoff].
 
 It's hard to say how happy I am to start working on all of these projects
-full-time. I would have laughted at anybody saying things would end up this way
+full-time. I would have laughed at anybody saying things would end up this way
 three years ago. I hope that thanks to this extra time I'll be able to make
 significant contributions and help move the ecosystem forward!
 
