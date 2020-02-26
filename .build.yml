@@ -25,3 +25,7 @@ tasks:
           --delete \
           --delete-excluded \
           . deploy@emersion.fr:/srv/http/emersion.fr
+triggers:
+  - action: email
+    condition: failure
+    to: "<contact@emersion.fr>"
