@@ -96,9 +96,9 @@ func main() {
 		articles = append(articles, Article{
 			Date:        item.Date,
 			SourceLink:  feed.Link,
-			SourceTitle: feed.Title,
+			SourceTitle: html.UnescapeString(feed.Title),
 			Summary:     summary,
-			Title:       item.Title,
+			Title:       html.UnescapeString(item.Title),
 			Link:        item.Link,
 		})
 	}
