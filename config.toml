@@ -25,3 +25,6 @@ paginate = 100
 [outputFormats.Atom]
 	mediaType = "application/atom+xml"
 	baseName = "atom"
+
+[markup.goldmark.renderer]
+	unsafe = true
