@@ -49,7 +49,7 @@ to redraw as little as possible.
 Here's an example with `htop`: only the parts that have changed are rendered,
 the regions that don't change are painted in yellow.
 
-<video src="https://sr.ht/fs1u.mp4" controls>
+<video src="https://sr.ht/fs1u.mp4" controls></video>
 
 We can see that elements such as the window titlebar and the table header are
 still. When moving You can try it yourself by building wlroots and running
