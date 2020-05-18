@@ -53,7 +53,7 @@ I've also started working on a static linker, [sld]. My goal is to keep it
 small and simple. Right now it can already link `exit(42)` and "Hello World"!
 The next step is to link "Hello World" with musl, which is pretty close (mostly
 blocked by `.bss` support). I still need to redesign the current code to allow
-for dead code alimination, so I don't expect the current architecture to stay
+for dead code elimination, so I don't expect the current architecture to stay
 as-is for long. Working on a linker has been pretty fun so far! (And omitting
 dynamic linking sure avoids a lot of complexity and magic.)
 
