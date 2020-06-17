@@ -1,7 +1,7 @@
 +++
 date = "2020-06-17T00:00:00+02:00"
 title = "Status update, June 2020"
-slug = "status-update-18"
+slug = "status-update-19"
 lang = "en"
 tags = ["status update"]
 +++
