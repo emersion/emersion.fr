@@ -66,7 +66,7 @@ been improved after reviews from Daniel Stone and Scott Anderson. I hope we'll
 be able to finally come to a consensus soon and finally be able to ditch the
 old `wl_drm` protocol and benefit from the performance improvements of
 per-surface hints. I've also sent some [xorg-xserver][xserver linux-dmabuf] and
-[Mesa][vulkan wsi linux-dmabuf] to use newer interfaces when available,
+[Mesa][vulkan wsi linux-dmabuf] patches to use newer interfaces when available,
 allowing direct scan-out in more situations.
 
 [I've][libdrm docs] [also][kms crtc props docs] [been][kms link-status docs]
