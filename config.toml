@@ -9,6 +9,9 @@ paginate = 100
 [permalinks]
 	blog = "/blog/:year/:slug/"
 
+[author]
+	name = "Simon Ser"
+
 [taxonomies]
 	tag = "tags"
 
