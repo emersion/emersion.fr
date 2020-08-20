@@ -131,10 +131,6 @@ article > header time {
 	white-space: nowrap;
 }
 
-article p, article li {
-	text-align: justify;
-}
-
 article img, article video {
 	max-width: 100%;
 }
