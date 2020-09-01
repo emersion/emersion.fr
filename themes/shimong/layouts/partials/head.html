@@ -6,6 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="canonical" href="{{ .Permalink }}">
 
+		{{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
+
 		{{ range .AlternativeOutputFormats -}}
 			<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}" />
 		{{ end -}}
