@@ -8,7 +8,7 @@ tags = ["status update"]
 
 Hi all, it's been a while! I've been taking some time off this month: I've been
 hiking in Corsica (an island in the south of France) for 2 weeks! The path
-(called GR20) was very difficult but the gorgeous landscapes made it entirely
+(called [GR20]) was very difficult but the gorgeous landscapes made it entirely
 worth it. :)
 
 ![Photo of a ridge in Corsica](https://pixelfed.social/storage/m/_v2/1521/1fb716abf-c07fca/FqvF9A5zS1qh/zSyjqk2TJ5TZzUu6BaJJYTg7zvW0f0U6nmtka2Oe.jpeg)
@@ -79,11 +79,6 @@ mailing list to discuss potential better solutions.
 While working on tlstunnel, I contributed to other projects such as [certmagic]
 (which transparently handles all of the ACME operations) and [go-proxyproto].
 
-While working on my IRC projects, I realized it wasn't possible to run multiple
-IRC servers on the same machine and expect the ident protocol to work properly.
-I've created a simple server, [ident-proxy], which forwards the incoming
-requests to multiple backends and returns the first successful reply (if any).
-
 I've invested some effort into a new Vulkan extension,
 [VK_EXT_physical_device_drm]. Currently Vulkan clients can iterate over the
 list of GPUs available on the system (via `VkPhysicalDevice`) but can't match
@@ -98,6 +93,11 @@ unprivileged access to input and graphics devices. neon64 is working on
 exciting. Aleix Pol from KDE is working on a new [xdg-activation] protocol
 which would (finally!) allow Wayland clients to securely transfer focus to
 another client.
+
+While working on my IRC projects, I realized it wasn't possible to run multiple
+IRC servers on the same machine and expect the ident protocol to work properly.
+I've created a simple server, [ident-proxy], which forwards the incoming
+requests to multiple backends and returns the first successful reply (if any).
 
 My smaller projects have received some love too: [slurp 1.3] was released with
 a bunch of new features (special thanks to Thayne McCombs!), [kanshi] now
@@ -129,3 +129,4 @@ That's all for these last two months! See you!
 [kanshi]: https://github.com/emersion/kanshi
 [drmdb]: https://drmdb.emersion.fr/
 [wlroots-gpu-hotplug]: https://github.com/swaywm/wlroots/pull/2423
+[GR20]: https://www.openstreetmap.org/relation/101692
