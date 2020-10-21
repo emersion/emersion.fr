@@ -6,7 +6,9 @@
   "license": "MIT",
   "dependencies": {
     "firacode": "^1.205.0",
-    "nanum-gothic-coding": "^4.0.0",
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "nanum-gothic-coding": "^4.0.0"
   }
 }
