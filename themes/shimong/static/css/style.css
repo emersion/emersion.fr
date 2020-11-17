@@ -179,14 +179,14 @@ kbd {
 	}
 }
 
-iframe[src*="youtube-nocookie.com"] {
+iframe[src*="youtube-nocookie.com"], iframe.video {
 	border: none;
 	width: 100%;
 	height: 460px;
 }
 
 @media (max-width: 640px) {
-	iframe[src*="youtube-nocookie.com"] {
+	iframe[src*="youtube-nocookie.com"], iframe.video {
 		height: 260px;
 	}
 }
