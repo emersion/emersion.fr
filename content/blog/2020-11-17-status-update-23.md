@@ -79,7 +79,7 @@ That's all for this month! See you!
 [reading]: https://l.sr.ht/ob9s.jpg
 [foss-north]: https://foss-north.se/2020ii/speakers-and-talks.html#sser
 [drmdb]: https://drmdb.emersion.fr/
-[libdrm-man]: https://gitlab.freedesktop.org/mesa/drm/-/merge_requests/72
+[libdrm patch]: https://gitlab.freedesktop.org/mesa/drm/-/merge_requests/72
 [wlroots-maintenance]: https://drewdevault.com/2020/10/23/Im-handing-wlroots-and-sway-to-Simon.html
 [wlroots 0.12]: https://github.com/swaywm/wlroots/releases/tag/0.12.0
 [wlroots-gpu-hotplug]: https://github.com/swaywm/wlroots/pull/2423
