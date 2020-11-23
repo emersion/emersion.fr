@@ -37,7 +37,7 @@ general, and I find DRM to be unethical. I'm not going to start to argue why I
 feel this way, because it doesn't really matter in the context of this article.
 Feel free to replace DRM with whatever you find unethical.
 
-So, I started participating to meetings and discussing how to get the
+So, I started participating in meetings and discussing how to get the
 HDCP patches merged. I wasn't very comfortable with the whole situation, and
 tried to stay away from it when possible. I considered saying "no", but I was
 scared. I was only working at Intel for a few weeks, I was still a student, I
