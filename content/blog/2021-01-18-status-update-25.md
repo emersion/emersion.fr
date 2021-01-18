@@ -39,12 +39,12 @@ DRM backend pull requests.
 
 In other DRM-related news, I've continued sending some DRM documentation
 patches and I've improved [drmdb]. The main drmdb change is a performance
-improvement that I've been ignoring so far by hiding with a Varnish caching
-proxy (yes, it's embarassing). drmdb deals with deeply-nested JSON documents:
-each "snapshot" is stored as a JSON file. Operations on that type of database
-are costly: I needed to open each file, parse the JSON blob, then decide what
-to do with it. Many pages show information coming from a lot of devices, thus
-took seconds to load.
+improvement: I've been so far ignoring a performance bug by hiding it with a
+Varnish caching proxy (yes, it's embarassing). drmdb deals with deeply-nested
+JSON documents: each "snapshot" is stored as a JSON file. Operations on that
+type of database are costly: I needed to open each file, parse the JSON blob,
+then decide what to do with it. Many pages show information coming from a lot
+of devices, thus took seconds to load.
 
 For now, I've implemented a cache to keep the last few hundred used snapshots
 in memory instead of loading each of them from disk. This has greatly helped
