@@ -61,8 +61,8 @@ kind of syntax highlighting as well to make it more readable, ideas welcome!
 Some of my other projects received some smaller updates too. minus added
 [config reloading][tlstunnel config reload] support to tlstunnel, [soju] now
 has an in-memory history buffer when the on-disk logs aren't enabled, and
-[gamja] will automatically when the connection to the IRC server is lost.
-Aditionally, I've started the release process for
+[gamja] will automatically reconnect when the connection to the IRC server is
+lost. Aditionally, I've started the release process for
 [Wayland 1.19][wayland 1.18.91], and I've released [libdrm 2.4.104].
 
 That's all, see you next month!
