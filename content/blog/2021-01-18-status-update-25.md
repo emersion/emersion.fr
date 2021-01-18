@@ -23,8 +23,9 @@ I've implemented it for [radv][radv VK_EXT_physical_device_drm] (Mesa's Vulkan
 driver for AMD GPUs) and James Jones has been helping with a test suite patch.
 
 While doing this, I've realized it causes some regressions on Nouveau, the
-open-source driver for NVIDIA GPUs. I've tracked down [a bunch of bugs][nouveau
-bugs], and submitted a [patch][nouveau linear scan-out patch] for one of them.
+open-source driver for NVIDIA GPUs. I've tracked down
+[a bunch of bugs][nouveau bugs], and submitted a
+[patch][nouveau linear scan-out patch] for one of them.
 The Nouveau folks have been very helpful, special thanks to Ilia Mirkin! They
 even went through the trouble of setting up Sway locally to reproduce and fix
 one of the Mesa bugs, and then sent a [wlroots patch][wlroots x11 cursor patch]
