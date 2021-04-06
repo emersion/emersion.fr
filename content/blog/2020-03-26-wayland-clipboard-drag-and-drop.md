@@ -390,8 +390,14 @@ to the source client. To do so, the destination client must send
 accepts drops, `supported_actions` is set a mask of supported actions.
 Otherwise, it's set to zero.
 
+To tell the compositor that the destination client can accept the offer based
+on its MIME type the `serial` parameter of the `enter` event needs to be
+stored. A request made by the destination client to the compositor will use
+this later on.
+
 ```c
 static void wl_data_offer *current_drag_offer = NULL;
+static uint32_t current_serial = 0;
 
 static void data_device_handle_enter(void *data,
 		struct wl_data_device *data_device, uint32_t serial,
@@ -401,6 +407,7 @@ static void data_device_handle_enter(void *data,
 		wl_fixed_to_double(x), wl_fixed_to_double(y));
 
 	current_drag_offer = offer;
+	current_serial = serial;
 
 	// We support the copy action if dropped anywhere on our surface
 	uint32_t supported_actions = WL_DATA_DEVICE_MANAGER_DND_ACTION_COPY;
@@ -456,19 +463,36 @@ static const struct wl_data_offer_listener data_offer_listener = {
 };
 ```
 
-When the user releases the pointer button, we'll receive a
+At the current state the compositor will never dispatch a `drop` event when the
+user releases the pointer button. This is because the destination client first
+needs to tell the compositor that it can handle the MIME type of the offer when
+it was first created. For this the destination client needs to call the
+`wl_data_offer.accept` function with the offer, the `serial` value we stored
+earlier, as well as the MIME type when the `wl_data_offer.offer` event was
+dispatched by the compositor.
+
+```c
+static void data_offer_handle_offer(void *data, struct wl_data_offer *offer,
+		const char *mime_type) {
+	printf("Clipboard supports MIME type: %s\n", mime_type);
+
+	if (strcmp(mime_type, "text/plain") == 0) {
+		wl_data_offer_accept(current_offer, current_serial, mime_type);
+	}
+}
+```
+
+Now when the user releases the pointer button, we'll receive a
 `wl_data_device.drop` event. We'll then be able to accept the drop by sending
 a `wl_data_offer.accept` request, then performing the data transfer as usual.
 Once we're done with the drop, we must send a `finish` request and destroy it.
-If we want to reject the drop, we can just destroy the offer before sending an
+If we want to reject the drop, we can destroy the offer before sending an
 `accept` request.
 
 ```c
 static void data_device_handle_drop(void *data,
 		struct wl_data_device *data_device) {
 	assert(current_drag_offer != NULL);
-
-	wl_data_offer_accept(current_drag_offer, "text/plain");
 
 	int fds[2];
 	pipe(fds);
