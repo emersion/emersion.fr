@@ -1,7 +1,5 @@
 #!/bin/sh -eu
 
-export GO111MODULE=on
-
 mkdir -p data
 go run openring.go >data/openring.toml \
 	-s "https://drewdevault.com/feed.xml" \
