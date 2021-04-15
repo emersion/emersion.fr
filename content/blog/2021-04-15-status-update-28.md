@@ -74,9 +74,9 @@ As always, there's a ton of background work I've been doing as well. I've
 reviewed a lot of patches across many projects (wayland-protocols, libdrm,
 Mesa, various Go libraries, of course wlroots/Sway, and many more). I've been
 doing more paperwork-y tasks as well, such as removing legacy chunks out of the
-Wayland website or helping out with some X.Org domain migrations. This kind of
-work takes time and is not so exciting for a status update, but it's necessary
-to keep the projects going.
+Wayland website or helping out with some X.Org domain name migrations. This
+kind of work takes time and is not so exciting to mention in a status update,
+but it's necessary to keep the projects going.
 
 That's all for this month! Thanks a lot for your support, see you!
 
