@@ -68,7 +68,7 @@ replace previous notifications from scripts.
 
 That's about it for this month! As a spoiler for the next status update, I've
 started [go-emailthreads], a new project to replace [python-emailthreads]. This
-should help lists.sr.ht get a better at presenting email discussions and allow
+should help lists.sr.ht get better at presenting email discussions and allow
 a full migration to GraphQL. Stay tuned for more!
 
 [Pixman renderer]: https://github.com/swaywm/wlroots/pull/2661
