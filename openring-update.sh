@@ -11,4 +11,6 @@ go run openring.go >data/openring.toml \
 	-s "https://research.swtch.com/feed.atom" \
 	-s "https://ewontfix.com/feed.rss" \
 	-s "https://rosenzweig.io/blog/gpu-feed.xml" \
-	-s "https://www.basnieuwenhuizen.nl/feed.xml"
+	-s "https://www.basnieuwenhuizen.nl/feed.xml" \
+	-s "https://www.supergoodcode.com/feed.xml" \
+	-s "https://blog.froggi.es/rss/"
