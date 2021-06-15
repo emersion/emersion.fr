@@ -52,7 +52,7 @@ Last but not least, I've finally come around to adding
 [FreeBSD CI to Wayland][wl-freebsd-ci]. This will hopefully unblock the
 portability patches we have queued up.
 
-That's all for this month, see you in August!
+That's all for this month, see you in July!
 
 [gamja]: https://sr.ht/~emersion/gamja/
 [soju]: https://soju.im
