@@ -45,7 +45,7 @@ the [Wayland protocol extension][wl-drm-lease], the
 [wlroots][wlr-drm-lease] patches in the near future. Xaver Hugl and Simon Zeni
 have been driving this effort. Another effort that sparked discussion is an
 [email I've sent to linux-mm][linux-mm-query] about avoiding `SIGBUS` in
-Wayland compositors. Linus Torvalds and Ming Lin replies with patches to
+Wayland compositors. Linus Torvalds and Ming Lin replied with patches to
 improve the situation, I'm hopeful for an upstream-able patch.
 
 Last but not least, I've finally come around to adding
