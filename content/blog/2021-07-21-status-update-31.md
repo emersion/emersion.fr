@@ -17,9 +17,9 @@ new "exec" and "on-notify" bindings enable things like notification sound
 alerts. These new features can be combined together to implement more creative
 features, let me know if you find other good combos!
 
-Continuing in the new release list, [libliftoff 0.1.0] is finally out. It's
-been maturing for about 2 years now and it's used by default in [gamescope].
-The next step will be integrating it in wlroots.
+Continuing in the new release department, [libliftoff 0.1.0] is finally
+out. It's been maturing for about 2 years now and it's used by default in
+[gamescope]. The next step will be integrating it in wlroots.
 
 I've been focused on wlroots bugfixes and stabilizing the recent renderer and
 backend refactoring. wlroots 0.14.1 (also released this month) fixes a handful
