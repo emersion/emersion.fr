@@ -32,7 +32,7 @@ Xwayland and Monado. This work is necessary to complete support for Virtual
 Reality headsets on Wayland. The Vulkan and Mesa bits have been merged, and the
 wayland-protocols, wlroots and Xwayland patches are in good shape.
 
-I've mentored [Joshua Ashton] and tricked him to get into Wayland protocols
+I've mentored [Joshua Ashton] and tricked him into getting into Wayland protocol
 development. We've been working on a [surface-suspension] protocol to allow
 off-screen surfaces to consume less resources, and at the same time fix buggy
 Vulkan games. More work with Khronos will be required to move this forward.
