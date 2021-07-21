@@ -1,8 +1,15 @@
 {{ partial "header.html" . }}
 
+{{ with  .OutputFormats.Get "atom" }}
+	<div class="alt-links">
+		[<a href="{{ .RelPermalink }}">feed</a>]
+	</div>
+{{ end }}
+
 <h1>{{ .Title }}</h1>
 
 <div class="article-list">
+
 	{{ range .Paginator.Pages }}
 	<article>
 		<header {{ if .Params.lang }}lang="{{- .Params.lang -}}"{{ end }}>

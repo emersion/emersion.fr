@@ -205,3 +205,9 @@ iframe[src*="youtube-nocookie.com"], iframe.video {
 	font-weight: normal;
 	color: gray;
 }
+
+.alt-links {
+	float: right;
+	color: gray;
+	margin: 30px 0;
+}
