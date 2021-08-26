@@ -59,6 +59,8 @@ set to `redis://127.0.0.1`. The `[mail]` section doesn't need to be populated.
 
 Then comes the `[meta.sr.ht]` section. To avoid the need to setup some hosts, I
 like setting `origin=http://127.0.0.1:5000` (port same as `debug-port`).
+Append `?sslmode=disable` to the database `connection-string` to allow the
+services to connect without TLS.
 
 To create and initialize the database:
 
