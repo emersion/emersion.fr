@@ -55,7 +55,9 @@ The next step is getting the configuration right for meta.sr.ht. Start with the
 example config file (`mv config.example.ini config.ini`) then populate the
 various fields. For the service-independent `[sr.ht]` section, the keys can be
 generated with helpers found in core.sr.ht and the `redis-host` field should be
-set to `redis://127.0.0.1`. The `[mail]` section doesn't need to be populated.
+set to `redis://127.0.0.1`. Additionally, set `global-domain=127.0.0.1` to
+ensure cookies are created with the correct parameters. The `[mail]` section
+doesn't need to be populated.
 
 Then comes the `[meta.sr.ht]` section. To avoid the need to setup some hosts, I
 like setting `origin=http://127.0.0.1:5000` (port same as `debug-port`).
