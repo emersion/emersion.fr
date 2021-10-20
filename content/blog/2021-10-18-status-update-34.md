@@ -50,7 +50,7 @@ That's all for now, see you next month!
 
 [chat.sr.ht]: https://man.sr.ht/chat.sr.ht/
 [soju]: https://soju.im
-[gamja]: https://sr.ht/gamja
+[gamja]: https://sr.ht/~emersion/gamja
 [Vulkan renderer]: https://github.com/swaywm/wlroots/pull/2771
 [dmabuf feedback]: https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/8
 [tiling check]: https://patchwork.freedesktop.org/patch/455904/
