@@ -37,8 +37,9 @@ authentication. This it should be the first one to be set up.
 Start by cloning the repository somewhere, together with core.sr.ht:
 
     cd ~/src
-    git clone https://git.sr.ht/~sircmpwn/core.sr.ht
+    git clone --recurse-submodules https://git.sr.ht/~sircmpwn/core.sr.ht
     git clone https://git.sr.ht/~sircmpwn/meta.sr.ht
+    cd meta.sr.ht
 
 Then configure `PYTHONPATH` to look up these directories, and set up
 `SRHT_PATH`:
